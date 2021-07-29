@@ -89,3 +89,13 @@
     A[] = {16,17,4,3,5,2}
     Output: 17 5 2
     Explanation: The first leader is 17 as it is greater than all the elements to its right. Similarly, the next leader is 5. The right most element is always a leader so it is also included.
+
+## 14. Kth smallest element in an array:
+    Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+    Example 1:
+    Input:
+    N = 6
+    arr[] = 7 10 4 3 20 15
+    K = 3
+    Output : 7
+    Explanation : 3rd smallest element in the given array is 7.
