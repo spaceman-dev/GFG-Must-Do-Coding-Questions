@@ -158,6 +158,16 @@
     Output: 3 7 4 8 2 6 1
     Explanation: 3 < 7 > 4 < 8 > 2 < 6 > 1
 
+## 22. Spirally traversing a matrix:
+    Given a matrix of size r*c. Traverse the matrix in spiral form.
+    Example 1:
+    Input:
+    r = 4, c = 4
+    matrix[][] = {{1, 2, 3, 4},
+            {5, 6, 7, 8},
+            {9, 10, 11, 12},
+            {13, 14, 15,16}}
+    Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
 ## 23. Largest number formed from an array:
     Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.The result is going to be very large, hence return the result in the form of a string.
     Example 1:
