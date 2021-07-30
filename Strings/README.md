@@ -36,3 +36,11 @@
     b = azonam
     Output: 1
     Explanation: amazon can be rotated anti clockwise by two places, which will make it as azonam.
+
+## 8. Remove Duplicates:
+    Given a string without spaces, the task is to remove duplicates from it.
+    Note: The original order of characters must be kept the same. 
+    Example 1:
+    Input: S = "zvvo"
+    Output: "zvo"
+    Explanation: Only keep the first occurrence
