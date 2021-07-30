@@ -118,6 +118,16 @@
     Output: 10
     Explanation: Water trapped by above block of height 4 is 3 units and above block of height 0 is 7 units. So, the total unit of water trapped is 10 units.
 
+## 19. Element with left side smaller and right side greater:
+    Given an unsorted array of size N. Find the first element in array such that all of its left elements are smaller and all right elements to it are greater than it.
+    Note: Left and right side elements can be equal to required element. And extreme elements cannot be required element.
+    Example 1:
+    Input:  
+    N = 4
+    A[] = {4, 2, 5, 7}
+    Output: 5
+    Explanation: Elements on left of 5 are smaller than 5 and on right of it are greater than 5.
+
 ## 23. Largest number formed from an array:
     Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.The result is going to be very large, hence return the result in the form of a string.
     Example 1:
