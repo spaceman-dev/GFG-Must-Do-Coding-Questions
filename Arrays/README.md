@@ -149,6 +149,15 @@
     Output: 5
     Explanation: Elements on left of 5 are smaller than 5 and on right of it are greater than 5.
 
+## 20. Convert array into zig-zag fashion:
+    Given an array Arr (distinct elements) of size N. Rearrange the elements of array in zig-zag fashion. The converted array should be in form a < b > c < d > e < f. The relative order of elements is same in the output i.e you have to iterate on the original array only.
+    Example 1:
+    Input:
+    N = 7
+    Arr[] = {4, 3, 7, 8, 6, 2, 1}
+    Output: 3 7 4 8 2 6 1
+    Explanation: 3 < 7 > 4 < 8 > 2 < 6 > 1
+
 ## 23. Largest number formed from an array:
     Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.The result is going to be very large, hence return the result in the form of a string.
     Example 1:
