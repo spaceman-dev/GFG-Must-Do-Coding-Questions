@@ -21,3 +21,12 @@
     Input: S = "aaaabbaa"
     Output: aabbaa
     Explanation: The longest Palindromic substring is "aabbaa".
+
+## 4. Check if String is rotated by 2 places:
+    Given two strings a and b. The task is to find if the string 'b' can be obtained by rotating another string 'a' by exactly 2 places. 
+    Example 1:
+    Input:
+    a = amazon
+    b = azonam
+    Output: 1
+    Explanation: amazon can be rotated anti clockwise by two places, which will make it as azonam.
