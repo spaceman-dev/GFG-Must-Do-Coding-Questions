@@ -108,3 +108,21 @@
     K = 3
     Output : 7
     Explanation : 3rd smallest element in the given array is 7.
+
+## 15. Trapping Rain Water:
+    Given an array arr[] of N non-negative integers representing the height of blocks. If width of each block is 1, compute how much water can be trapped between the blocks during the rainy season. 
+    Example 1:
+    Input:
+    N = 4
+    arr[] = {7,4,0,9}
+    Output: 10
+    Explanation: Water trapped by above block of height 4 is 3 units and above block of height 0 is 7 units. So, the total unit of water trapped is 10 units.
+
+## 23. Largest number formed from an array:
+    Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.The result is going to be very large, hence return the result in the form of a string.
+    Example 1:
+    Input: 
+    N = 5
+    Arr[] = {3, 30, 34, 5, 9}
+    Output: 9534330
+    Explanation: Given numbers are {3, 30, 34, 5, 9}, the arrangement 9534330 gives the largest value.
