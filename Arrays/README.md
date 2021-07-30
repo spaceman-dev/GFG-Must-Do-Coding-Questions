@@ -128,6 +128,17 @@
     A = {3, 4, 1, 9, 56, 7, 9, 12}
     Output: 6
     Explanation: The minimum difference between maximum chocolates and minimum chocolates is 9 - 3 = 6 by choosing following M packets :{3, 4, 9, 7, 9}.
+
+## 18. Stock Buy and Sell:
+    The cost of stock on each day is given in an array A[] of size N. Find all the days on which you buy and sell the stock so that in between those days your profit is maximum.
+    Note: There may be multiple possible solutions. Return any one of them. Any correct solution will result in an output of 1, whereas wrong solutions will result in an output of 0.
+    Example 1:
+    Input:
+    N = 7
+    A[] = {100,180,260,310,40,535,695}
+    Output: 1
+    Explanation: One possible solution is (0 3) (4 6) We can buy stock on day 0, and sell it on 3rd day, which will give us maximum profit. Now, we buy stock on day 4 and sell it on day 6.
+
 ## 19. Element with left side smaller and right side greater:
     Given an unsorted array of size N. Find the first element in array such that all of its left elements are smaller and all right elements to it are greater than it.
     Note: Left and right side elements can be equal to required element. And extreme elements cannot be required element.
