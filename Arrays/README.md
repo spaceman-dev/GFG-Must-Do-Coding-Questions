@@ -118,6 +118,16 @@
     Output: 10
     Explanation: Water trapped by above block of height 4 is 3 units and above block of height 0 is 7 units. So, the total unit of water trapped is 10 units.
 
+## 17. Chocolate distribution problem:
+    Given an array A[ ] of positive integers of size N, where each value represents the number of chocolates in a packet. Each packet can have a variable number of chocolates. There are M students, the task is to distribute chocolate packets among M students such that :
+    Each student gets exactly one packet.
+    The difference between maximum number of chocolates given to a student and minimum number of chocolates given to a student is minimum.
+    Example 1:
+    Input:
+    N = 8, M = 5
+    A = {3, 4, 1, 9, 56, 7, 9, 12}
+    Output: 6
+    Explanation: The minimum difference between maximum chocolates and minimum chocolates is 9 - 3 = 6 by choosing following M packets :{3, 4, 9, 7, 9}.
 ## 19. Element with left side smaller and right side greater:
     Given an unsorted array of size N. Find the first element in array such that all of its left elements are smaller and all right elements to it are greater than it.
     Note: Left and right side elements can be equal to required element. And extreme elements cannot be required element.
