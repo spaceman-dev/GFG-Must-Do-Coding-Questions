@@ -53,7 +53,13 @@
                     page number 0 is required which replaces LRU 1: page fault = 6 + 1 = 7
                     page number 5 is required which replaces LRU 3: page fault = 7 + 1 = 8.
 
-## 6. Minimize The Heights 2:
+## 6. Largest Number Possible:
+    Given two numbers 'N' and 'S' , find the largest number that can be formed with 'N' digits and whose sum of digits should be equals to 'S'. 
+    Example 1:
+    Input: N = 3, S = 20
+    Output: 992
+    Explaination: It is the biggest number with sum of digits equals to 20.
+## 7. Minimize The Heights 2:
     Given an array arr[] denoting heights of N towers and a positive integer K, you have to modify the height of each tower either by increasing or decreasing them by K only once. After modifying, height should be a non-negative integer. 
     Find out what could be the possible minimum difference of the height of shortest and longest towers after you have modified each tower. 
     Example 1:
@@ -63,7 +69,7 @@
     Output: 5
     Explanation: The array can be modified as {3, 3, 6, 8}. The difference between the largest and the smallest is 8-3 = 5.
 
-## 7. Minimize the sop:
+## 8. Minimize the sop:
     You are given two arrays, A and B, of equal size N. The task is to find the minimum value of A[0] * B[0] + A[1] * B[1] +…+ A[N-1] * B[N-1], where shuffling of elements of arrays A and B is allowed.
     Example 1:
     Input:
