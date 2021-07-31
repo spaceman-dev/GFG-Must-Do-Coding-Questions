@@ -81,3 +81,12 @@
     Example 1:
     Input: str = 123
     Output: 123
+
+## 13. Longest common prefix in an array:
+    Given a array of N strings, find the longest common prefix among all strings present in the array.
+    Example 1:
+    Input:
+    N = 4
+    arr[] = {geeksforgeeks, geeks, geek, geezer}
+    Output: gee
+    Explanation: "gee" is the longest common prefix in all the given strings.
