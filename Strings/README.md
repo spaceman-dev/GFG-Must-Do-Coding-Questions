@@ -37,6 +37,13 @@
     Output: 1
     Explanation: amazon can be rotated anti clockwise by two places, which will make it as azonam.
 
+## 6. Roman Number to Integer:
+    Given a string in roman no format (s)  your task is to convert it to an integer . Various symbols and their values are given below.
+    I 1, V 5, X 10, L 50, C 100, D 500, M 1000
+    Example 1:
+    Input: s = V
+    Output: 5
+
 ## 8. Remove Duplicates:
     Given a string without spaces, the task is to remove duplicates from it.
     Note: The original order of characters must be kept the same. 
