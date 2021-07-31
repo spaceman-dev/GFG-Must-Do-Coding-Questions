@@ -78,3 +78,14 @@
     B[] = {6, 5, 4}
     Output: 23 
     Explanation: 1 * 6  + 1 * 5 + 3 * 4  = 6 + 5 + 12 = 23 is the minimum sum
+
+## 12. Geek Collects Balls:
+    There are two parallel roads, each containing N and M buckets, respectively. Each bucket may contain some balls. The balls in first road are given in an array a and balls in the second road in an array b. The buckets on both roads are kept in such a way that they are sorted according to the number of balls in them. Geek starts from the end of the road which has the bucket with a lower number of balls(i.e. if buckets are sorted in increasing order, then geek will start from the left side of the road).
+    Geek can change the road only at a point of intersection ie- a point where buckets have the same number of balls on two roads. Help Geek collect the maximum number of balls.
+    Example 1:
+    Input: 
+    N = 5, M = 5
+    a[] = {1, 4, 5, 6, 8}
+    b[] = {2, 3, 4, 6, 9}
+    Output: 29
+    Explanation: The optimal way to get the maximum number of balls is to start from road 2. Get 2+3. Then switch at intersection point 4. Get 4+5+6. Then switch at intersection point 6. Get 9. Total = 2+3+4+5+6+9 = 29.
