@@ -21,3 +21,10 @@
     end[] =  {2,4,6,7,9,9}
     Output: 4
     Explanation: Maximum four meetings can be held with given start and end timings. The meetings are - (1, 2),(3, 4), (5,7) and (8,9)
+
+## 3. Choose and swap:
+    You are given a string s of lower case english alphabets. You can choose any two characters in the string and replace all the occurences of the first character with the second character and replace all the occurences of the second character with the first character. Your aim is to find the lexicographically smallest string that can be obtained by doing this operation at most once.
+    Example 1:
+    Input: A = "ccad"
+    Output: "aacd"
+    Explanation: In ccad, we choose ‘a’ and ‘c’ and after doing the replacement operation once we get, aacd and this is the lexicographically smallest string possible. 
