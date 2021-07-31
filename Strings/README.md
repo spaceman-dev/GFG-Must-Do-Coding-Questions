@@ -67,3 +67,10 @@
     Input: str = "abcd"
     Output: 3
     Explanation: Inserted character marked with bold characters in dcbabcd
+
+## 10. Longest distinct characters in a string:
+    Given a string S, find length of the longest substring with all distinct characters. 
+    Example 1:
+    Input: S = "geeksforgeeks"
+    Output: 7
+    Explanation: "eksforg" is the longest substring with all distinct characters.
