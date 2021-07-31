@@ -62,3 +62,13 @@
     Arr[] = {1, 5, 8, 10}
     Output: 5
     Explanation: The array can be modified as {3, 3, 6, 8}. The difference between the largest and the smallest is 8-3 = 5.
+
+## 7. Minimize the sop:
+    You are given two arrays, A and B, of equal size N. The task is to find the minimum value of A[0] * B[0] + A[1] * B[1] +…+ A[N-1] * B[N-1], where shuffling of elements of arrays A and B is allowed.
+    Example 1:
+    Input:
+    N = 3 
+    A[] = {3, 1, 1}
+    B[] = {6, 5, 4}
+    Output: 23 
+    Explanation: 1 * 6  + 1 * 5 + 3 * 4  = 6 + 5 + 12 = 23 is the minimum sum
