@@ -74,3 +74,10 @@
     Input: S = "geeksforgeeks"
     Output: 7
     Explanation: "eksforg" is the longest substring with all distinct characters.
+
+## 11. Implement AtoI:
+    Your task  is to implement the function atoi. The function takes a string(str) as argument and converts it to an integer and returns it.
+    Note: You are not allowed to use inbuilt function.
+    Example 1:
+    Input: str = 123
+    Output: 123
