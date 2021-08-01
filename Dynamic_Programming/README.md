@@ -77,3 +77,17 @@
     Input: N = 4, x = 2, y = 1, z = 1
     Output: 4
     Explanation: Total length is 4, and the cut lengths are 2, 1 and 1.  We can make maximum 4 segments each of length 1.
+
+## 17. Count Number of Hops:
+    A frog jumps either 1, 2, or 3 steps to go to the top. In how many ways can it reach the top. As the answer will be large find the answer modulo 1000000007.
+    Example 1:
+    Input: N = 4
+    Output: 7
+    Explanation:Below are the 7 ways to reach 4
+                1 step + 1 step + 1 step + 1 step 
+                1 step + 2 step + 1 step 
+                2 step + 1 step + 1 step 
+                1 step + 1 step + 2 step
+                2 step + 2 step
+                3 step + 1 step
+                1 step + 3 step
