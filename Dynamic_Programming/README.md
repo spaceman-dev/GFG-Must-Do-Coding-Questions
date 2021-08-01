@@ -49,3 +49,10 @@
     Input: N = 11 arr[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9} 
     Output: 3 
     Explanation: First jump from 1st element to 2nd element with value 3. Now, from here we jump to 5th element with value 9, and from here we will jump to last. 
+
+## 10. Edit Distance:   
+    Given two strings s and t. Find the minimum number of operations that need to be performed on str1 to convert it to str2. The possible operations are: Insert, Remove, Replace.
+    Example 1:
+    Input: s = "geek", t = "gesek"
+    Output: 1 
+    Explanation: One operation is required inserting 's' between two 'e's of str1.
