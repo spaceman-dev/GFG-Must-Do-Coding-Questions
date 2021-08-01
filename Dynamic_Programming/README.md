@@ -70,3 +70,10 @@
     Input: N = 4, arr = {1, 5, 11, 5} 
     Output: YES 
     Explaination: The two parts are {1, 5, 5} and {11}.
+
+## 14. Maximize Cut Segments (Rod Cutting):
+    Given an integer N denoting the Length of a line segment. You need to cut the line segment in such a way that the cut length of a line segment each time is either x , y or z. Here x, y, and z are integers. After performing all the cut operations, your total number of cut segments must be maximum.
+    Example 1:
+    Input: N = 4, x = 2, y = 1, z = 1
+    Output: 4
+    Explanation: Total length is 4, and the cut lengths are 2, 1 and 1.  We can make maximum 4 segments each of length 1.
