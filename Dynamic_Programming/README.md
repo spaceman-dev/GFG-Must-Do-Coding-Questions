@@ -34,3 +34,10 @@
     values[] = {1,2,3}
     weight[] = {4,5,1}
     Output: 3
+
+## 8. Maximum Sum Increasing Subsequence:
+    Given an array arr of N positive integers, the task is to find the maximum sum increasing subsequence of the given array.
+    Example 1:
+    Input: N = 5, arr[] = {1, 101, 2, 3, 100}   
+    Output: 106
+    Explanation:The maximum sum of a increasing sequence is obtained from {1, 2, 3, 100}
