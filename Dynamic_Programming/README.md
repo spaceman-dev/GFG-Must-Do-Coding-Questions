@@ -63,3 +63,10 @@
     Input: n = 4 , m = 3, S[] = {1,2,3}
     Output: 4 
     Explanation: Four Possible ways are: {1,1,1,1},{1,1,2},{2,2},{1,3}.
+
+## 12. Partition Equal Subset Sum:
+    Given an array arr[] of size N, check if it can be partitioned into two parts such that the sum of elements in both parts is the same.
+    Example 1:
+    Input: N = 4, arr = {1, 5, 11, 5} 
+    Output: YES 
+    Explaination: The two parts are {1, 5, 5} and {11}.
