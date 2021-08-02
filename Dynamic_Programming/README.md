@@ -14,6 +14,13 @@
     Output: 3
     Explanation: The given pairs are { {5, 24}, {39, 60}, {15, 28}, {27, 40}, {50, 90} },the longest chain that can be formed is of length 3, and the chain is {{5, 24}, {27, 40}, {50, 90}}
 
+## 3. Minimum Number of Coins (Greedy):
+    Given an infinite supply of each denomination of Indian currency { 1, 2, 5, 10, 20, 50, 100, 200, 500, 2000 } and a target value N. Find the minimum number of coins and/or notes needed to make the change for Rs N.
+    Example 1:
+    Input: N = 43 
+    Output: 20 20 2 1
+    Explaination: Minimum number of coins and notes needed to make 43. 
+
 ## 4. Longest Common Substring:
     Given two strings. The task is to find the length of the longest common substring.
     Example 1:
