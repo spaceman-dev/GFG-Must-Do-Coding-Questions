@@ -78,6 +78,12 @@
     Output: 4
     Explanation: Total length is 4, and the cut lengths are 2, 1 and 1.  We can make maximum 4 segments each of length 1.
 
+## 16. Minimum Sum Partition:
+    Given an integer array arr of size N, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum and find the minimum difference
+    Example 1:
+    Input: N = 4, arr[] = {1, 6, 11, 5} 
+    Output: 1
+    Explanation: Subset1 = {1, 5, 6}, sum of Subset1 = 12 Subset2 = {11}, sum of Subset2 = 11   
 ## 17. Count Number of Hops:
     A frog jumps either 1, 2, or 3 steps to go to the top. In how many ways can it reach the top. As the answer will be large find the answer modulo 1000000007.
     Example 1:
