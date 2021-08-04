@@ -28,3 +28,10 @@
         so starting from 0, it will go to 1 then 2 
         then 3.After this 2 to 4, thus bfs will be 
         0 1 2 3 4.
+
+## 3. Detect Cycle in an undirected Graph:
+    Given an undirected graph with V vertices and E edges, check whether it contains any cycle or not. 
+    Example 1:
+    Input:   
+    Output: 1
+    Explanation: 1->2->3->4->1 is a cycle.
