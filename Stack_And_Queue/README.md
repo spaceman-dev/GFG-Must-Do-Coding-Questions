@@ -41,6 +41,19 @@
         push(4) the stack will be {2 4}
         pop()   poped element will be 4  
 
+## 5. Get Minimum Element from Stack:
+    You are given N elements and your task is to Implement a Stack in which you can get minimum element in O(1) time.
+    Example 1:
+    Input: push(2) push(3) pop() getMin() push(1) getMin()
+    Output: 3 2 1 
+    Explanation: In the first test case for query 
+        push(2)  the stack will be {2}
+        push(3)  the stack will be {2 3}
+        pop()    poped element will be 3 the stack will be {2}
+        getMin() min element will be 2 
+        push(1)  the stack will be {2 1}
+        getMin() min element will be 1
+
 ## 9. Rotten Oranges:
     Given a grid of dimension nxm where each cell in the grid can have values 0, 1 or 2 which has the following meaning:
     0 : Empty cell

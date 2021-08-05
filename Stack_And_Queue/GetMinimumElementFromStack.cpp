@@ -9,8 +9,6 @@ public :
     int pop();
     void push(int);
 };
-
-
 int main()
 {
    int t;
