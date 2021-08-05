@@ -36,6 +36,13 @@
     Output: 1
     Explanation: 1->2->3->4->1 is a cycle.
 
+## 4. Detect Cycle in a directed Graph:
+    Given a Directed Graph with V vertices (Numbered from 0 to V-1) and E edges, check whether it contains any cycle or not.
+    Example 1:
+    Input:
+    Output: 1
+    Explanation: 3 -> 3 is a cycle
+    
 ## 5. Topological Sort:
     Given a Directed Graph with V vertices and E edges, Find any Topological Sorting of that Graph.
     Example 1:
