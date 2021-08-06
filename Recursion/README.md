@@ -30,3 +30,16 @@
     Input: N = 7, A = {9, 1, 2, 7, 6, 1, 5}, B = 8
     Output: (1 1 6)(1 2 5)(1 7)(2 6)
     Explaination: These are the only possible combinations for getting sum 8.
+
+## 4. Special Keyboard:
+    Imagine you have a special keyboard with the following keys: 
+        Key 1:  Prints 'A' on screen
+        Key 2: (Ctrl-A): Select screen
+        Key 3: (Ctrl-C): Copy selection to buffer
+        Key 4: (Ctrl-V): Print buffer on screen appending it after what has already been printed.
+    Find maximum numbers of A's that can be produced by pressing keys on the special keyboard N times. 
+    Example 2:
+    Input: N = 7
+    Output: 9
+    Explaination: The best key sequence is key 1, key 1, key 1, key 2, key 3, key4, key 4.
+
