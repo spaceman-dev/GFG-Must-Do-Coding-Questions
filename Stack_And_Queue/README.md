@@ -65,6 +65,17 @@
     Output: 1 
     Explanation: There are 4 petrol pumps with amount of petrol and distance to next petrol pump value pairs as {4, 6}, {6, 5}, {7, 3} and {4, 5}. The first point from where truck can make a circular tour is 2nd petrol pump. Output in this case is 1 (index of 2nd petrol pump).
 
+## 8. First Non Repeating character in a stream:
+    Given an input stream of A of n characters consisting only of lower case alphabets. The task is to find the first non repeating character, each time a character is inserted to the stream. If there is no such character then append '#' to the answer.
+    Example 1:
+    Input: A = "aabc"
+    Output: "a#bb" 
+    Explanation: For every character first non repeating character is as follow- 
+            "a" - first non-repeating character is 'a'
+            "aa" - no non-repeating character so '#'
+            "aab" - first non-repeating character is 'b'
+            "aabc" - first non-repeating character is 'b'
+
 ## 9. Rotten Oranges:
     Given a grid of dimension nxm where each cell in the grid can have values 0, 1 or 2 which has the following meaning:
     0 : Empty cell
