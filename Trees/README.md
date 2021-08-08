@@ -10,6 +10,17 @@
         4     5   6    7
         \
             8   
+        
+## 2. Check for BST:
+    Given a binary tree. Check whether it is a BST or not.
+    Note: We are considering that BSTs can not contain duplicate Nodes.
+    Example 1:
+    Input:
+          2
+        /    \
+        1      3
+    Output: 1 
+    Explanation: The left subtree of root node contains node with key lesser than the root node’s key and the right subtree of root node contains node with key greater than the root node’s key. Hence, the tree is a BST.
 
 ## 7. Lowest Common Ancestor in a BST:
     Given a Binary Search Tree (with all values unique) and two node values. Find the Lowest Common Ancestors of the two nodes in the BST.
