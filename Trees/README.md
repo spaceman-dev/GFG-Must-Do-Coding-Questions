@@ -74,3 +74,15 @@
                      8
     n1 = 7, n2 = 8
     Output: 7
+
+## 10. Is Tree Symmetric:
+    Given a Binary Tree. Check whether it is Symmetric or not, i.e. whether the binary tree is a Mirror image of itself or not.
+    Example 1:
+    Input:
+         5
+       /   \
+      1     1
+     /       \
+    2         2
+    Output: True
+    Explanation: Tree is mirror image of itself i.e. tree is symmetric
