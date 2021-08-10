@@ -129,6 +129,15 @@
     Output: True
     Explanation: Tree is mirror image of itself i.e. tree is symmetric
 
+## 11. Height of a Binary Tree:
+    Given a binary tree, find its height.
+    Example 1:
+    Input:
+       1
+      /  \
+     2    3
+    Output: 2
+
 ## 15. Check for Balanced Tree:
     Given a binary tree, find if it is height balanced or not. 
     A tree is height balanced if difference between heights of left and right subtrees is not more than one for all nodes of tree. 
