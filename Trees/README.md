@@ -61,6 +61,17 @@
           8      9           
     Output: 4 2 1 5 6 3 8 7 9 
 
+## 5. Level Order Traversal in Spiral Form:
+    Complete the function to find spiral order traversal of a tree. For below tree, function should return 1, 2, 3, 4, 5, 6, 7.
+    Example 1:
+    Input:
+             10
+           /     \
+          20     30
+        /    \
+      40     60
+    Output: 10 20 30 60 40 
+
 ## 7. Lowest Common Ancestor in a BST:
     Given a Binary Search Tree (with all values unique) and two node values. Find the Lowest Common Ancestors of the two nodes in the BST.
     Example 1:
