@@ -137,6 +137,18 @@
       /  \
      2    3
     Output: 2
+## 12. Maximum Path Sum Between two leaf nodes:
+    Given a binary tree in which each node element contains a number. Find the maximum possible sum from one leaf node to another leaf node.
+    Note: Here Leaf node is a node which is connected to exactly one different node.
+    Example 1:
+    Input:      
+           3                               
+         /    \                          
+       4       5                     
+      /  \      
+    -10   4                          
+    Output: 16
+    Explanation: Maximum Sum lies between leaf node 4 and 5. 4 + 4 + 3 + 5 = 16.
 
 ## 15. Check for Balanced Tree:
     Given a binary tree, find if it is height balanced or not. 
