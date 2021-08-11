@@ -107,6 +107,16 @@
     n1 = 7, n2 = 8
     Output: 7
 
+## 8. Convert Binary Tree to Doubly Linked List:
+    Given a Binary Tree (BT), convert it to a Doubly Linked List(DLL) In-Place. The left and right pointers in nodes are to be used as previous and next pointers respectively in converted DLL. The order of nodes in DLL must be same as Inorder of the given Binary Tree. The first node of Inorder traversal (leftmost node in BT) must be the head node of the DLL.
+    Example 1:
+    Input:
+        1
+      /  \
+     3    2
+    Output: 3 1 2, 2 1 3 
+    Explanation: DLL would be 3<=>1<=>2
+
 ## 9. Determine if Two Trees are Identical:
     Given two binary trees, the task is to find if both of them are identical or not. 
     Example 2:
