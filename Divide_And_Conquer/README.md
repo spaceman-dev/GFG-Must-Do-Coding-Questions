@@ -6,3 +6,10 @@
     Input: N = 9 A[] = {5, 6, 7, 8, 9, 10, 1, 2, 3} key = 10
     Output: 5
     Explanation: 10 is found at index 5.
+
+## 4. Sum of Middle Elements of Two Sorted Arrays:
+    Given 2 sorted arrays Ar1 and Ar2 of size N each. Merge the given arrays and find the sum of the two middle elements of the merged array.
+    Example 1:
+    Input: N = 5, Ar1[] = {1, 2, 4, 6, 10}, Ar2[] = {4, 5, 6, 9, 12}
+    Output: 11
+    Explanation: The merged array looks like {1,2,4,4,5,6,6,9,10,12}. Sum of middle elements is 11 (5 + 6).
