@@ -60,6 +60,9 @@
     Output: 0 9
     Explanation: Shortest distance of all nodes from source is printed.
 
+## 9. Strongly Connected Components(Kosaraju's Algorithm):
+    Given a Directed Graph with V vertices (Numbered from 0 to V-1) and E edges, Find the number of strongly connected components in the graph.
+
 ## 15. Alien Dictionary:
     Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary. Find the order of characters in the alien language.
     Note: Many orders may be possible for a particular test case, thus you may return any valid order and output will be 1 if the order of string returned by the function is correct else 0 denoting incorrect string returned.
