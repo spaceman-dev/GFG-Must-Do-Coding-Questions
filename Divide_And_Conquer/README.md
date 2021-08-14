@@ -13,3 +13,11 @@
     Input: N = 5, Ar1[] = {1, 2, 4, 6, 10}, Ar2[] = {4, 5, 6, 9, 12}
     Output: 11
     Explanation: The merged array looks like {1,2,4,4,5,6,6,9,10,12}. Sum of middle elements is 11 (5 + 6).
+
+## 5. Quick Sort:
+    Quick Sort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. Given an array arr[], its starting position low and its ending position high.
+    Implement the partition() and quickSort() functions to sort the array.
+    Example 1:
+    Input: N = 5, arr[] = { 4, 1, 3, 9, 7}
+    Output: 1 3 4 7 9
+
