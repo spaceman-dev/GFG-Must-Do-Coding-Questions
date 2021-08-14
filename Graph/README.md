@@ -50,6 +50,19 @@
     Output: 1
     Explanation: The output 1 denotes that the order is valid. So, if you have, implemented your function correctly, then output would be 1 for all test cases. One possible Topological order for the graph is 3, 2, 1, 0. 
     
+## 6. Number of Islands:
+    Given a grid consisting of '0's(Water) and '1's(Land). Find the number of islands.
+    Note: An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically or diagonally i.e., in all 8 directions.
+    Example 1:
+    Input: grid = {{0,1},{1,0},{1,1},{1,0}}
+    Output: 1
+    Explanation: The grid is-
+        0 1
+        1 0
+        1 1
+        1 0
+    All lands are connected.
+
 ## 7. Dijkstra'a Algorithm:
     Given a weighted, undirected and connected graph of V vertices and E edges, Find the shortest distance of all the vertex's from the source vertex S.
     Note: The Graph doesn't contain any negative weight cycle.
