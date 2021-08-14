@@ -26,3 +26,10 @@
     Example 1:
     Input: N = 5, arr[] = {4 1 3 9 7}
     Output: 1 3 4 7 9
+
+## 7. Kth element of two sorted arrays:
+    Given two sorted arrays arr1 and arr2 of size N and M respectively and an element K. The task is to find the element that would be at the k’th position of the final sorted array.
+    Example 1:
+    Input: arr1[] = {2, 3, 6, 7, 9}, arr2[] = {1, 4, 8, 10}, k = 5
+    Output: 6
+    Explanation: The final sorted array would be - 1, 2, 3, 4, 6, 7, 8, 9, 10. The 5th element of this array is 6.
