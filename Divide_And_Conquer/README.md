@@ -21,3 +21,8 @@
     Input: N = 5, arr[] = { 4, 1, 3, 9, 7}
     Output: 1 3 4 7 9
 
+## 6. Merge Sort:
+    Given an array arr[], its starting position l and its ending position r. Sort the array using merge sort algorithm.
+    Example 1:
+    Input: N = 5, arr[] = {4 1 3 9 7}
+    Output: 1 3 4 7 9
