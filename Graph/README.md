@@ -84,6 +84,19 @@
     Output: 5
     Explanation: The shortest path is as follows: (0,0)->(1,0)->(1,1)->(2,1)->(2,2)->(2,3).
 
+## 12. Minimum Cost Path:
+    Given a square grid of size N, each cell of which contains integer cost which represents a cost to traverse through that cell, we need to find a path from top left cell to bottom right cell by which the total cost incurred is minimum. From the cell (i,j) we can go (i,j-1), (i, j+1), (i-1, j), (i+1, j). 
+    Note: It is assumed that negative cost cycles do not exist in the input matrix.
+    Example 1:
+    Input: grid = {{9,4,9,9},{6,7,6,4}, {8,3,3,7},{7,4,9,10}}
+    Output: 43
+    Explanation: The grid is-
+        9 4 9 9
+        6 7 6 4
+        8 3 3 7
+        7 4 9 10
+    The minimum cost is - 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43.
+
 ## 15. Alien Dictionary:
     Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary. Find the order of characters in the alien language.
     Note: Many orders may be possible for a particular test case, thus you may return any valid order and output will be 1 if the order of string returned by the function is correct else 0 denoting incorrect string returned.
