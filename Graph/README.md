@@ -76,6 +76,14 @@
 ## 9. Strongly Connected Components(Kosaraju's Algorithm):
     Given a Directed Graph with V vertices (Numbered from 0 to V-1) and E edges, Find the number of strongly connected components in the graph.
 
+## 10. Shortest Source To Destination Path:
+    Given a 2D binary matrix A(0-based index) of dimensions NxM. Find the minimum number of steps required to reach from (0,0) to (X, Y).
+    Note: You can only move left, right, up and down, and only through cells that contain 1.
+    Example 1:
+    Input: N=3, M=4, A=[[1,0,0,0], [1,1,0,1],[0,1,1,1]] X=2 Y=3 
+    Output: 5
+    Explanation: The shortest path is as follows: (0,0)->(1,0)->(1,1)->(2,1)->(2,2)->(2,3).
+
 ## 15. Alien Dictionary:
     Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary. Find the order of characters in the alien language.
     Note: Many orders may be possible for a particular test case, thus you may return any valid order and output will be 1 if the order of string returned by the function is correct else 0 denoting incorrect string returned.
