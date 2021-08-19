@@ -28,3 +28,10 @@
     Explanation:
         Testcase1: The highest frequency here is 2. Both 5 and 4 have that frequency. Now since the frequencies are same then smaller element comes first. So 4 4 comes first then comes 5 5. Finally comes 6. The output is 4 4 5 5 6.
         Testcase2: The highest frequency here is 3. The element 9 has the highest frequency. So 9 9 9 comes first. Now both 2 and 5 have same frequency. So we print smaller element first. The output is 9 9 9 2 5.
+    
+## 3. Largest Subarray with 0 Sum:
+    Given an array having both positive and negative integers. The task is to compute the length of the largest subarray with sum 0.
+    Example 1:
+    Input: N = 8, A[] = {15,-2,2,-8,1,7,10,23}
+    Output: 5
+    Explanation: The largest subarray with sum 0 will be -2 2 -8 1 7.
