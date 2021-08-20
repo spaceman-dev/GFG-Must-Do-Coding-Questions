@@ -136,6 +136,16 @@
             - Otherwise, drop the egg from floor 2. If it breaks, we know that f = 1.
             - If it does not break, then we know f = 2.
             - Hence, we need at minimum 2 moves to determine with certainty what the value of f is.
+## 19. Optimal Strategy For a Game:
+    You are given an array A of size N. The array contains integers and is of even length. The elements of the array represent N coin of values V1, V2, ....Vn. You play against an opponent in an alternating way.
+    In each turn, a player selects either the first or last coin from the row, removes it from the row permanently, and receives the value of the coin.
+    You need to determine the maximum possible amount of money you can win if you go first.
+    Note: Both the players are playing optimally.
+    Example 1:
+    Input: N = 4, A[] = {5,3,7,10}
+    Output: 15
+    Explanation: The user collects maximum value as 15(10 + 5)
+
 ## 20. Shortest Common Supersequence:
     Given two strings X and Y of lengths m and n respectively, find the length of the smallest string which has both, X and Y as its sub-sequences. Note: X and Y can have both uppercase and lowercase letters.
     Example 1
