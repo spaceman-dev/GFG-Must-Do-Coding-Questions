@@ -35,3 +35,10 @@
     Input: N = 8, A[] = {15,-2,2,-8,1,7,10,23}
     Output: 5
     Explanation: The largest subarray with sum 0 will be -2 2 -8 1 7.
+
+## 13. Zero Sum Subarrays:
+    You are given an array arr[] of size n. Find the total count of sub-arrays having their sum equal to 0.
+    Example 1:
+    Input: n = 6, arr[] = {0,0,5,5,0,0}
+    Output: 6
+    Explanation: The 6 subarrays are [0], [0], [0], [0], [0,0], and [0,0].
