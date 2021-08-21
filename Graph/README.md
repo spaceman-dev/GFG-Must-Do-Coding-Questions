@@ -84,6 +84,25 @@
     Output: 5
     Explanation: The shortest path is as follows: (0,0)->(1,0)->(1,1)->(2,1)->(2,2)->(2,3).
 
+## 11. Find whether path exists:
+    Given a grid of size n*n filled with 0, 1, 2, 3. Check whether there is a path possible from the source to destination. You can traverse up, down, right and left.
+    The description of cells is as follows:
+        A value of cell 1 means Source.
+        A value of cell 2 means Destination.
+        A value of cell 3 means Blank cell.
+        A value of cell 0 means Wall.
+    Note: There are only a single source and a single destination.
+    Example 1:
+    Input: grid = {{3,0,3,0,0},{3,0,0,0,3}, {3,3,3,3,3},{0,2,3,0,0},{3,0,0,1,3}}
+    Output: 0
+    Explanation: The grid is-
+        3 0 3 0 0 
+        3 0 0 0 3 
+        3 3 3 3 3 
+        0 2 3 0 0 
+        3 0 0 1 3 
+    There is no path to reach at (3,1) i,e at destination from (4,3) i,e source.
+
 ## 12. Minimum Cost Path:
     Given a square grid of size N, each cell of which contains integer cost which represents a cost to traverse through that cell, we need to find a path from top left cell to bottom right cell by which the total cost incurred is minimum. From the cell (i,j) we can go (i,j-1), (i, j+1), (i-1, j), (i+1, j). 
     Note: It is assumed that negative cost cycles do not exist in the input matrix.
