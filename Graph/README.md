@@ -123,6 +123,14 @@
         7 4 9 10
     The minimum cost is - 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43.
 
+## 13. Circle of Strings (Map based approach)
+    Given an array of lowercase strings A[] of size N, determine if the strings can be chained together to form a circle. A string X can be chained together with another string Y if the last character of X is same as first character of Y. If every string of the array can be chained, it will form a circle.
+    For example, for the array arr[] = {"for", "geek", "rig", "kaf"} the answer will be Yes as the given strings can be chained as "for", "rig", "geek" and "kaf"
+    Example 1:
+    Input: N = 3, A[] = { "abc", "bcd", "cdf" }
+    Output: 0
+    Explaination: These strings can't form a circle because no string has 'd'at the starting index.
+
 ## 15. Alien Dictionary:
     Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary. Find the order of characters in the alien language.
     Note: Many orders may be possible for a particular test case, thus you may return any valid order and output will be 1 if the order of string returned by the function is correct else 0 denoting incorrect string returned.
