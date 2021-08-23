@@ -123,13 +123,20 @@
         7 4 9 10
     The minimum cost is - 9 + 4 + 7 + 3 + 3 + 7 + 10 = 43.
 
-## 13. Circle of Strings (Map based approach)
+## 13. Circle of Strings (Map based approach):
     Given an array of lowercase strings A[] of size N, determine if the strings can be chained together to form a circle. A string X can be chained together with another string Y if the last character of X is same as first character of Y. If every string of the array can be chained, it will form a circle.
     For example, for the array arr[] = {"for", "geek", "rig", "kaf"} the answer will be Yes as the given strings can be chained as "for", "rig", "geek" and "kaf"
     Example 1:
     Input: N = 3, A[] = { "abc", "bcd", "cdf" }
     Output: 0
     Explaination: These strings can't form a circle because no string has 'd'at the starting index.
+
+## 14. Flloyd Warshall:
+    The problem is to find shortest distances between every pair of vertices in a given edge weighted directed Graph. The Graph is represented as adjancency matrix, and the matrix denotes the weight of the edegs (if it exists) else -1. Do it in-place.
+    Example 2:
+    Input: matrix = {{0,1,43},{1,0,6},{-1,-1,0}}
+    Output: {{0,1,7},{1,0,6},{-1,-1,0}}
+    Explanation: We can reach 3 from 1 as 1->2->3 and the cost will be 1+6=7 which is less than 43.
 
 ## 15. Alien Dictionary:
     Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary. Find the order of characters in the alien language.
