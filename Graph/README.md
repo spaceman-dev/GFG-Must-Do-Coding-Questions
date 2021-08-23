@@ -73,6 +73,13 @@
     Output: 0 9
     Explanation: Shortest distance of all nodes from source is printed.
 
+## 8. Minimum Swaps to sort:
+    Given an array of n distinct elements. Find the minimum number of swaps required to sort the array in strictly increasing order.
+    Example 1:
+    Input: nums = {2, 8, 5, 4}
+    Output: 1
+    Explaination: swap 8 with 4.
+
 ## 9. Strongly Connected Components(Kosaraju's Algorithm):
     Given a Directed Graph with V vertices (Numbered from 0 to V-1) and E edges, Find the number of strongly connected components in the graph.
 
