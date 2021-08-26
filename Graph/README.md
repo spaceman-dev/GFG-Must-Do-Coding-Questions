@@ -145,3 +145,14 @@
     Input: N = 5, K = 4, dict = {"baa","abcd","abca","cab","cad"}
     Output: 1
     Explanation: Here order of characters is 'b', 'd', 'a', 'c' Note that words are sorted and in the given language "baa" comes before "abcd", therefore 'b' is before 'a' in output. Similarly we can find other orders.
+
+## 16. Snake and Ladder Problem:
+    Given a 5x6 snakes and ladders board, find the minimum number of dice throws required to reach the destination or last cell (30th cell) from the source (1st cell).
+    You are given an integer N denoting the total number of snakes and ladders and an array arr[] of 2*N size where 2*i and (2*i + 1)th values denote the starting and ending point respectively of ith snake or ladder. The board looks like the following.
+    Example 1:
+    Input: N = 8 arr[] = {3, 22, 5, 8, 11, 26, 20, 29, 17, 4, 19, 7, 27, 1, 21, 9}
+    Output: 3
+    Explanation: The given board is the board shown in the figure. For the above board output will be 3. 
+        a) For 1st throw get a 2. 
+        b) For 2nd throw get a 6.
+        c) For 3rd throw get a 2.
