@@ -43,6 +43,13 @@
     Output: True
     Explanation: {(9, 3), (5, 7)} is a possible solution. 9 + 3 = 12 is divisible by 6 and 7 + 5 = 12 is also divisible by 6.
 
+## 9. Longest consecutive subsequence:
+    Given an array of positive integers. Find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, the consecutive numbers can be in any order.
+    Example 1:
+    Input: N = 7, a[] = {2,6,1,9,4,5,3}
+    Output: 6
+    Explanation: The consecutive numbers here are 1, 2, 3, 4, 5, 6. These 6 numbers form the longest consecutive subsquence.
+
 ## 13. Zero Sum Subarrays:
     You are given an array arr[] of size n. Find the total count of sub-arrays having their sum equal to 0.
     Example 1:
