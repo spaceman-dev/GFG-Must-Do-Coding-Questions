@@ -20,3 +20,13 @@
     Output: DDRDRR DRDDRR
     Explanation: The rat can reach the destination at (3, 3) from (0, 0) by two paths - DRDDRR and DDRDRR, when printed in sorted order we get DDRDRR DRDDRR.  
  
+ ## 4. Word Boggle (only Backtracking, no Trie):
+    Given a dictionary of distinct words and an M x N board where every cell has one character. Find all possible words from the dictionary that can be formed by a sequence of adjacent characters on the board. We can move to any of 8 adjacent characters, but a word should not have multiple instances of the same cell.
+    Example 1:
+    Input: N = 1, dictionary = {"CAT"}, R = 3, C = 3, board = {{C,A,P},{A,N,D},{T,I,E}}
+    Output: CAT
+    Explanation: 
+        C A P
+        A N D
+        T I E
+    Words we got is denoted using same color.
