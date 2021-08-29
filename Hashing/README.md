@@ -36,6 +36,13 @@
     Output: 5
     Explanation: The largest subarray with sum 0 will be -2 2 -8 1 7.
 
+## 4. Common Elements:
+    Given two lists V1 and V2 of sizes n and m respectively. Return the list of elements common to both the lists and return the list in sorted order. Duplicates may be there in the output list.
+    Example:
+    Input: n = 5, v1[] = {3, 4, 2, 2, 4}, m = 4, v2[] = {3, 2, 2, 7}
+    Output: 2 2 3
+    Explanation: The common elements in sorted order are {2 2 3}
+
 ## 8. Array Pair Sum Divisibility Problem:
     Given an array of integers and a number k, write a function that returns true if given array can be divided into pairs such that sum of every pair is divisible by k.
     Example 1 : 
