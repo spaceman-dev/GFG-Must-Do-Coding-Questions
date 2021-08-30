@@ -43,6 +43,13 @@
     Output: 2 2 3
     Explanation: The common elements in sorted order are {2 2 3}
 
+## 5. Find all four sum numbers:
+    Given an array of integers and another number. Find all the unique quadruple from the given array that sums up to the given number.
+    Example 1:
+    Input: N = 5, K = 3, A[] = {0,0,2,1,1}
+    Output: 0 0 1 2 $
+    Explanation: Sum of 0, 0, 1, 2 is equal to K.
+
 ## 8. Array Pair Sum Divisibility Problem:
     Given an array of integers and a number k, write a function that returns true if given array can be divided into pairs such that sum of every pair is divisible by k.
     Example 1 : 
