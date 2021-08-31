@@ -50,6 +50,13 @@
     Output: 0 0 1 2 $
     Explanation: Sum of 0, 0, 1, 2 is equal to K.
 
+## 6. Swapping Pairs makes equal sum:
+    Given two arrays of integers A[] and B[] of size N and M, the task is to check if a pair of values (one value from each array) exists such that swapping the elements of the pair will make the sum of two arrays equal.
+    Example 1:
+    Input: N = 6, M = 4, A[] = {4, 1, 2, 1, 1, 2}, B[] = (3, 6, 3, 3)
+    Output: 1
+    Explanation: Sum of elements in A[] = 11, Sum of elements in B[] = 15, To get same sum from both arrays, we can swap following values: 1 from A[] and 3 from B[]
+
 ## 7. Count distinct elements in every window:
     Given an array of integers and a number K. Find the count of distinct elements in every window of size K in the array.
     Example 1:
