@@ -81,6 +81,13 @@
     Output: 6
     Explanation: The consecutive numbers here are 1, 2, 3, 4, 5, 6. These 6 numbers form the longest consecutive subsquence.
 
+## 10. Array subset of another array:
+    Given two arrays: a1[0..n-1] of size n and a2[0..m-1] of size m. Task is to check whether a2[] is a subset of a1[] or not. Both the arrays can be sorted or unsorted. It may be assumed that elements in both array are distinct.
+    Example 1:
+    Input: a1[] = {11, 1, 13, 21, 3, 7}, a2[] = {11, 3, 7, 1}
+    Output: Yes
+    Explanation: a2[] is a subset of a1[]
+
 ## 13. Zero Sum Subarrays:
     You are given an array arr[] of size n. Find the total count of sub-arrays having their sum equal to 0.
     Example 1:
