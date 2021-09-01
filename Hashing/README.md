@@ -88,6 +88,13 @@
     Output: Yes
     Explanation: a2[] is a subset of a1[]
 
+## 11. Find all pairs with a given sum:
+    Given two unsorted arrays A of size N and B of size M of distinct elements, the task is to find all pairs from both arrays whose sum is equal to X.
+    Example 1:
+    Input: A[] = {1, 2, 4, 5, 7}, B[] = {5, 6, 3, 4, 8}, X = 9 
+    Output: 1 8, 4 5, 5 4
+    Explanation: (1, 8), (4, 5), (5, 4) are the pairs which sum to 9.
+
 ## 13. Zero Sum Subarrays:
     You are given an array arr[] of size n. Find the total count of sub-arrays having their sum equal to 0.
     Example 1:
