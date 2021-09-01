@@ -101,3 +101,10 @@
     Input: n = 6, arr[] = {0,0,5,5,0,0}
     Output: 6
     Explanation: The 6 subarrays are [0], [0], [0], [0], [0,0], and [0,0].
+
+## 14. Minimum indexed character:
+    Given a string str and another string patt. Find the first position (considering 0-based indexing) of the character in patt that is present at the minimum index in str.
+    Example 1:
+    Input: str = geeksforgeeks, patt = set
+    Output: 1
+    Explanation: e is the character which is present in given patt "geeksforgeeks" and is first found in str "set". First Position of e in str is 1. 
