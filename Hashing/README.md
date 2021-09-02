@@ -108,3 +108,12 @@
     Input: str = geeksforgeeks, patt = set
     Output: 1
     Explanation: e is the character which is present in given patt "geeksforgeeks" and is first found in str "set". First Position of e in str is 1. 
+
+## 17. Smallest window in a string containing all the characters of another string
+    Given two strings S and P. Find the smallest window in the string S consisting of all the characters(including duplicates) of the string P.  Return "-1" in case there is no such window present. In case there are multiple such windows of same length, return the one with the least starting index. 
+    Example 1:
+    Input:
+    S = "timetopractice"
+    P = "toc"
+    Output: toprac
+    Explanation: "toprac" is the smallest substring in which "toc" can be found.
