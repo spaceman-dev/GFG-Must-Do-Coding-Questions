@@ -117,3 +117,10 @@
     P = "toc"
     Output: toprac
     Explanation: "toprac" is the smallest substring in which "toc" can be found.
+
+## 19. Check if frequencies can be equal:
+    Given a string s which contains only lower alphabetic characters, check if it is possible to remove at most one character from this string in such a way that frequency of each distinct character becomes same in the string.
+    Example 1:
+    Input: s = xyyz
+    Output: 1 
+    Explanation: Removing one 'y' will make frequency of each letter 1.
