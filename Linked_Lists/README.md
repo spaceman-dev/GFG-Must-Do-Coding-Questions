@@ -32,6 +32,13 @@
     Output: 4 2 2 1 8 7 6 5 
     Explanation: The first 4 elements 1,2,2,4 are reversed first and then the next 4 elements 5,6,7,8. Hence, the resultant linked list is 4->2->2->1->8->7->6->5.
 
+## 6. Detect loop in linked list:
+    Given a linked list of N nodes. The task is to check if the linked list has a loop. Linked list can contain self loop.
+    Example 1:
+    Input: N = 3, value[] = {1,3,4}, x = 2
+    Output: True
+    Explanation: In above test case N = 3. The linked list with nodes N = 3 is given. Then value of x=2 is given which means last node is connected with xth node of linked list. Therefore, there exists a loop.
+
 ## 8. Nth node from end of Linked List:
     Given a linked list consisting of L nodes and given a number N. The task is to find the Nth node from the end of the linked list.
     Example 1:
