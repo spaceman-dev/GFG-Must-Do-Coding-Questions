@@ -32,6 +32,15 @@
     Output: 4 2 2 1 8 7 6 5 
     Explanation: The first 4 elements 1,2,2,4 are reversed first and then the next 4 elements 5,6,7,8. Hence, the resultant linked list is 4->2->2->1->8->7->6->5.
 
+## 5. Intersection point in Y shaped linked lists:
+    Given two singly linked lists of size N and M, write a program to get the point where two linked lists intersect each other.
+    Example 1:
+    Input:
+    LinkList1 = 3->6->9->common 
+    LinkList2 = 10->common 
+    common = 15->30->NULL
+    Output: 15
+
 ## 6. Detect loop in linked list:
     Given a linked list of N nodes. The task is to check if the linked list has a loop. Linked list can contain self loop.
     Example 1:
