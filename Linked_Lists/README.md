@@ -48,6 +48,20 @@
     Output: True
     Explanation: In above test case N = 3. The linked list with nodes N = 3 is given. Then value of x=2 is given which means last node is connected with xth node of linked list. Therefore, there exists a loop.
 
+## 7. Remove loop in linked list:
+    Given a linked list of N nodes such that it may contain a loop. A loop here means that the last node of the link list is connected to the node at position X. If the link list does not have any loop, X=0. Remove the loop from the linked list, if it is present.  
+    Example 1:
+    Input:
+    N = 3
+    value[] = {1,3,4}
+    X = 2
+    Output: 1
+    Explanation: The link list looks like
+        1 -> 3 -> 4
+             ^    |
+             |____|    
+    A loop is present. If you remove it successfully, the answer will be 1. 
+
 ## 8. Nth node from end of Linked List:
     Given a linked list consisting of L nodes and given a number N. The task is to find the Nth node from the end of the linked list.
     Example 1:
