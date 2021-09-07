@@ -105,6 +105,16 @@
     Output: 2 1 4 2 6 5 8 7
     Explanation: After swapping each pair considering (1,2), (2, 4), (5, 6).. so on as pairs, we get 2, 1, 4, 2, 6, 5, 8, 7 as a new linked list.
 
+## 13. Add 2 numbers represented by a linked list:
+    Given two numbers represented by two linked lists of size N and M. The task is to return a sum list.
+    The sum list is a linked list representation of the addition of two input numbers from the last.
+    Example 1:
+    Input:
+    N = 2, valueN[] = {4,5}
+    M = 3, valueM[] = {3,4,5}
+    Output: 3 9 0  
+    Explanation: For the given two linked list (4 5) and (3 4 5), after adding the two linked list resultant linked list will be (3 9 0).
+
 ## 17. Given Linked Lists of 0s, 1s, 2s, sort it:
     Given a linked list of N nodes where nodes can contain values 0s, 1s, and 2s only. The task is to segregate 0s, 1s, and 2s linked list such that all zeros segregate to head side, 2s at the end of the linked list, and 1s in the mid of 0s and 2s.
     Example 1:
