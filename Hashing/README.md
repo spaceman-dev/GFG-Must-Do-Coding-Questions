@@ -109,6 +109,17 @@
     Output: 1
     Explanation: e is the character which is present in given patt "geeksforgeeks" and is first found in str "set". First Position of e in str is 1. 
 
+## 15. Check if two arrays are equal or not:
+    Given two arrays A and B of equal size N, the task is to find if given arrays are equal or not. Two arrays are said to be equal if both of them contain same set of elements, arrangements (or permutation) of elements may be different though.
+    Note : If there are repetitions, then counts of repeated elements must also be same for two array to be equal.
+    Example 1:
+    Input:
+    N = 5
+    A[] = {1,2,5,4,0}
+    B[] = {2,4,5,0,1}
+    Output: 1
+    Explanation: Both the array can be rearranged to {0,1,2,4,5}
+
 ## 17. Smallest window in a string containing all the characters of another string
     Given two strings S and P. Find the smallest window in the string S consisting of all the characters(including duplicates) of the string P.  Return "-1" in case there is no such window present. In case there are multiple such windows of same length, return the one with the least starting index. 
     Example 1:
