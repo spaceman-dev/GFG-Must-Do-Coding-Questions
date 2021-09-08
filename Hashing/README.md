@@ -129,6 +129,15 @@
     Output: toprac
     Explanation: "toprac" is the smallest substring in which "toc" can be found.
 
+## 18. First Element to occur K times:
+    Given an array of N integers. Find the first element that occurs K number of times. 
+    Example 1:
+    Input :
+    N = 7, K = 2
+    A[] = {1, 7, 4, 3, 4, 8, 7}
+    Output : 4
+    Explanation: Both 7 and 4 occur 2 times. But 4 is first that occurs 2 times.
+
 ## 19. Check if frequencies can be equal:
     Given a string s which contains only lower alphabetic characters, check if it is possible to remove at most one character from this string in such a way that frequency of each distinct character becomes same in the string.
     Example 1:
