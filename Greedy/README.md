@@ -59,6 +59,7 @@
     Input: N = 3, S = 20
     Output: 992
     Explaination: It is the biggest number with sum of digits equals to 20.
+
 ## 7. Minimize The Heights 2:
     Given an array arr[] denoting heights of N towers and a positive integer K, you have to modify the height of each tower either by increasing or decreasing them by K only once. After modifying, height should be a non-negative integer. 
     Find out what could be the possible minimum difference of the height of shortest and longest towers after you have modified each tower. 
@@ -78,6 +79,12 @@
     B[] = {6, 5, 4}
     Output: 23 
     Explanation: 1 * 6  + 1 * 5 + 3 * 4  = 6 + 5 + 12 = 23 is the minimum sum
+
+## 9. Huffman Decoding - 1:
+    Given a string S, implement Huffman Encoding and Decoding.
+    Example 1:
+    Input : abc
+    Output : abc
 
 ## 11. Shop in Candy Store:
     In a candy store, there are N different types of candies available and the prices of all the N different types of candies are provided to you. You are now provided with an attractive offer. You can buy a single candy from the store and get at most K other candies ( all are different types ) for free. Now you have to answer two questions. Firstly, you have to find what is the minimum amount of money you have to spend to buy all the N different candies. Secondly, you have to find what is the maximum amount of money you have to spend to buy all the N different candies. In both the cases you must utilize the offer i.e. you buy one candy and get K other candies for free.
