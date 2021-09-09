@@ -6,6 +6,8 @@
         "vector": "cpp",
         "bitset": "cpp",
         "chrono": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp"
     }
 }

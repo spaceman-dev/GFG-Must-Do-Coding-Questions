@@ -120,6 +120,13 @@
     Output: 1
     Explanation: Both the array can be rearranged to {0,1,2,4,5}
 
+## 16. Uncommon Characters:
+    Given two strings A and B. Find the characters that are not common in the two strings. 
+    Example 1:
+    Input: A = geeksforgeeks, B = geeksquiz
+    Output: fioqruz
+    Explanation: The characters 'f', 'i', 'o', 'q', 'r', 'u','z' are either present in A or B, but not in both.
+    
 ## 17. Smallest window in a string containing all the characters of another string
     Given two strings S and P. Find the smallest window in the string S consisting of all the characters(including duplicates) of the string P.  Return "-1" in case there is no such window present. In case there are multiple such windows of same length, return the one with the least starting index. 
     Example 1:
