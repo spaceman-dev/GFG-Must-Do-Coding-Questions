@@ -130,6 +130,22 @@
     Output: 1
     Explanation: The given linked list is 1 2 1 , which is a palindrome and hence, the output is 1.
 
+## 15. Implement a Queue using linked list:
+    Implement a Queue using Linked List. 
+        A Query Q is of 2 Types
+        (i) 1 x   (a query of this type means  pushing 'x' into the queue)
+        (ii) 2     (a query of this type means to pop an element from the queue and print the poped element)
+    Example 1:
+    Input: Q = 5, Queries = 1 2 1 3 2 1 4 2
+    Output: 2 3
+    Explanation: n the first testcase
+        1 2 the queue will be {2}
+        1 3 the queue will be {2 3}
+        2   poped element will be 2 the
+        queue will be {3}
+        1 4 the queue will be {3 4}
+        2   poped element will be 3.
+
 ## 17. Given Linked Lists of 0s, 1s, 2s, sort it:
     Given a linked list of N nodes where nodes can contain values 0s, 1s, and 2s only. The task is to segregate 0s, 1s, and 2s linked list such that all zeros segregate to head side, 2s at the end of the linked list, and 1s in the mid of 0s and 2s.
     Example 1:
