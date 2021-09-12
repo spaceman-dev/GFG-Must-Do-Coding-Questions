@@ -123,6 +123,13 @@
     Output: 3 9 0  
     Explanation: For the given two linked list (4 5) and (3 4 5), after adding the two linked list resultant linked list will be (3 9 0).
 
+## 14. Check if linked list is a palindrome:
+    Given a singly linked list of size N of integers. The task is to check if the given linked list is palindrome or not.
+    Example 1:
+    Input: N = 3, value[] = {1,2,1}
+    Output: 1
+    Explanation: The given linked list is 1 2 1 , which is a palindrome and hence, the output is 1.
+
 ## 17. Given Linked Lists of 0s, 1s, 2s, sort it:
     Given a linked list of N nodes where nodes can contain values 0s, 1s, and 2s only. The task is to segregate 0s, 1s, and 2s linked list such that all zeros segregate to head side, 2s at the end of the linked list, and 1s in the mid of 0s and 2s.
     Example 1:
