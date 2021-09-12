@@ -96,6 +96,14 @@
     Output: 2 3 5 10 15 20 40
     Explanation: After merging the two linked lists, we have merged list as 2, 3, 5, 10, 15, 20, 40.
 
+## 11. Intersection Point of two linked lists:
+    Given two singly linked lists of size N and M, write a program to get the point where two linked lists intersect each other.
+    Example 1:
+    Input:
+        LinkList1 = 3->6->9->common
+        LinkList2 = 10->common
+        common = 15->30->NULL
+    Output: 15
 
 ## 12. Pairwise swap elements of linked list:
     Given a singly linked list of size N. The task is to swap elements in the linked list pairwise. For example, if the input list is 1 2 3 4, the resulting list after swaps will be 2 1 4 3.
