@@ -166,6 +166,13 @@
     Output: 3 7 4 8 2 6 1
     Explanation: 3 < 7 > 4 < 8 > 2 < 6 > 1
 
+## 21. Last Index of One:
+    Given a string S consisting only '0's and '1's,  find the last index of the '1' present in it.
+    Example 1:
+    Input: S = 00001
+    Output: 4
+    Explanation: Last index of  1 in given string is 4.
+
 ## 22. Spirally traversing a matrix:
     Given a matrix of size r*c. Traverse the matrix in spiral form.
     Example 1:
@@ -176,6 +183,7 @@
             {9, 10, 11, 12},
             {13, 14, 15,16}}
     Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+
 ## 23. Largest number formed from an array:
     Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.The result is going to be very large, hence return the result in the form of a string.
     Example 1:
