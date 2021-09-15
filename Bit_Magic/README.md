@@ -34,3 +34,10 @@
     Input: N = 10, K = 2
     Output: 14
     Explanation: Binary representation of the given number 10 is: 1 0 1 0, number of bits in the binary reprsentation is 4. Thus 2nd bit from right is 0. The number after changing this bit to 1 is: 14(1 1 1 0).
+
+## 6. Power of 2:
+    Given a non-negative integer N. The task is to check if N is a power of 2. More formally, check if N can be expressed as 2x for some x.
+    Example 1:
+    Input: N = 1
+    Output: true
+    Explanation: 1 is equal to 2 raised to 0 (20 = 1).
