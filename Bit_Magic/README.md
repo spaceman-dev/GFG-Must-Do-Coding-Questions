@@ -59,3 +59,11 @@
     Explanation: 28 in Binary is: 000...011100
                 Rotating left by 2 positions, it becomes 00...1110000 = 112 (in decimal).
                 Rotating right by 2 positions, it becomes 000...000111 = 7 (in decimal).
+
+## 9. Swap all odd and even bits:
+    Given an unsigned integer N. The task is to swap all odd bits with even bits. For example, if the given number is 23 (00010111), it should be converted to 43(00101011). Here, every even position bit is swapped with adjacent bit on the right side(even position bits are highlighted in the binary representation of 23), and every odd position bit is swapped with an adjacent on the left side.
+    Example 1:
+    Input: N = 23
+    Output: 43
+    Explanation: Binary representation of the given number is 00010111 after swapping 00101011 = 43 in decimal.
+    
