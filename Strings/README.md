@@ -82,6 +82,14 @@
     Input: str = 123
     Output: 123
 
+## 12. Implement strstr:
+    Your task is to implement the function strstr. The function takes two strings as arguments (s,x) and  locates the occurrence of the string x in the string s. The function returns and integer denoting the first occurrence of the string x in s (0 based indexing).
+    Note: You are not allowed to use inbuilt function.
+    Example 1:
+    Input: s = GeeksForGeeks, x = For
+    Output: 5
+    Explanation: For is present as substring in GeeksForGeeks from index 5 (0 based indexing).
+
 ## 13. Longest common prefix in an array:
     Given a array of N strings, find the longest common prefix among all strings present in the array.
     Example 1:
