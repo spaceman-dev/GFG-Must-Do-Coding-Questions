@@ -126,6 +126,13 @@
     Output: 10
     Explanation: Water trapped by above block of height 4 is 3 units and above block of height 0 is 7 units. So, the total unit of water trapped is 10 units.
 
+## 16. Pythagorean Triplet:
+    Given an array arr of N integers, write a function that returns true if there is a triplet (a, b, c) that satisfies a2 + b2 = c2, otherwise false.
+    Example 1:
+    Input: N = 5, Arr[] = {3, 2, 4, 6, 5}
+    Output: Yes
+    Explanation: a=3, b=4, and c=5 forms a pythagorean triplet.
+
 ## 17. Chocolate distribution problem:
     Given an array A[ ] of positive integers of size N, where each value represents the number of chocolates in a packet. Each packet can have a variable number of chocolates. There are M students, the task is to distribute chocolate packets among M students such that :
     Each student gets exactly one packet.
