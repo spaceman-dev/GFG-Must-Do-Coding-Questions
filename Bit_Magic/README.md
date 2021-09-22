@@ -86,3 +86,10 @@
     Output: 3
     Explanation: Binary representation of 14 is 1110, in which 111 is the longest consecutive set bits of length is 3.
 
+## 12. Number is Sparse or not:
+    Given a number N. The task is to check whether it is sparse or not. A number is said to be a sparse number if no two or more consecutive bits are set in the binary representation.
+    Example 1:
+    Input: N = 2
+    Output: 1
+    Explanation: Binary Representation of 2 is 10,  which is not having consecutive set bits. So, it is sparse number.
+
