@@ -92,6 +92,21 @@
     Output: YES 
     Explaination: The two parts are {1, 5, 5} and {11}.
 
+## 13. Box Stacking:
+    You are given a set of N types of rectangular 3-D boxes, where the ith box has height h, width w and length l. You task is to create a stack of boxes which is as tall as possible, but you can only stack a box on top of another box if the dimensions of the 2-D base of the lower box are each strictly larger than those of the 2-D base of the higher box. Of course, you can rotate a box so that any side functions as its base.It is also allowable to use multiple instances of the same type of box. You task is to complete the function maxHeight which returns the height of the highest possible stack so formed.
+    Note: Base of the lower box should be strictly larger than that of the new box we're going to place. This is in terms of both length and width, not just in terms of area. So, two boxes with same base cannot be placed one over the other.
+    Example 1:
+    Input:
+    n = 4
+    height[] = {4,1,4,10}
+    width[] = {6,2,5,12}
+    length[] = {7,3,6,32}
+    Output: 60
+    Explanation: One way of placing the boxes is as follows in the bottom to top manner: (Denoting the boxes in (l, w, h) manner)
+                    (12, 32, 10) (10, 12, 32) (6, 7, 4) 
+                    (5, 6, 4) (4, 5, 6) (2, 3, 1) (1, 2, 3)
+                Hence, the total height of this stack is 10 + 32 + 4 + 4 + 6 + 1 + 3 = 60. No other combination of boxes produces a height greater than this.
+
 ## 14. Maximize Cut Segments (Rod Cutting):
     Given an integer N denoting the Length of a line segment. You need to cut the line segment in such a way that the cut length of a line segment each time is either x , y or z. Here x, y, and z are integers. After performing all the cut operations, your total number of cut segments must be maximum.
     Example 1:
