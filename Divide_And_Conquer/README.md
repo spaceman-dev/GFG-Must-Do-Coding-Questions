@@ -1,5 +1,14 @@
 # Divide and Conquer
 
+## 1. Find element that appears once in a sorted array:
+    Given a sorted array arr[] of size N. Find the element that appears only once in the array. All other elements appear exactly twice. 
+    Example 1:
+    Input:
+    N = 11
+    arr[] = {1, 1, 2, 2, 3, 3, 4, 50, 50, 65, 65}
+    Output: 4
+    Explanation: 4 is the only element that appears exactly once.
+
 ## 2. Search in a Rotated Array:
     Given a sorted and rotated array A of N distinct elements which is rotated at some point, and given an element key. The task is to find the index of the given element key in the array A.
     Example 1:
