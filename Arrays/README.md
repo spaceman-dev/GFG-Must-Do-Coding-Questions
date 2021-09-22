@@ -55,6 +55,15 @@
     Output: 6 1 5 2 4 3
     Explanation: Max element = 6, min = 1, second max = 5, second min = 2, and so on... Modified array is : 6 1 5 2 4 3.
 
+## 7. Number of Pairs:
+    Given two arrays X and Y of positive integers, find the number of pairs such that x^y > y^x (raised to power of) where x is an element from X and y is an element from Y.
+    Example 1:
+    Input: 
+    M = 3, X[] = [2 1 6] 
+    N = 2, Y[] = [1 5]
+    Output: 3
+    Explanation: The pairs which follow x^y > y^x are as such: 2^1 > 1^2,  2^5 > 5^2 and 6^1 > 1^6 .
+
 ## 8. Inversion of an array:
     Given an array of integers. Find the Inversion Count in the array. Inversion Count: For an array, inversion count indicates how far (or close) the array is from being sorted. If array is already sorted then the inversion count is 0. If an array is sorted in the reverse order then the inversion count is the maximum. Formally, two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.  
     Example 1:
