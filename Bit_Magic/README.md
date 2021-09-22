@@ -93,3 +93,10 @@
     Output: 1
     Explanation: Binary Representation of 2 is 10,  which is not having consecutive set bits. So, it is sparse number.
 
+## 13. Party of Couples:
+    In a party of N people, each person is denoted by an integer. Couples are represented by the same number. Find out the only singe person in the party of couples.
+    Example 1:
+    Input: N = 5 arr = {1, 2, 3, 2, 1}
+    Output: 3
+    Explaination: Only the number 3 is single.
+
