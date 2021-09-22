@@ -16,6 +16,16 @@
     Output: 5
     Explanation: 10 is found at index 5.
 
+## 3. Binary Search:
+    Given a sorted array of size N and an integer K, find the position at which K is present in the array using binary search.
+    Example 1:
+    Input:
+    N = 5
+    arr[] = {1 2 3 4 5} 
+    K = 4
+    Output: 3
+    Explanation: 4 appears at index 3.
+
 ## 4. Sum of Middle Elements of Two Sorted Arrays:
     Given 2 sorted arrays Ar1 and Ar2 of size N each. Merge the given arrays and find the sum of the two middle elements of the merged array.
     Example 1:
