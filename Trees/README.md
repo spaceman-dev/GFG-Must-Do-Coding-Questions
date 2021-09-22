@@ -170,6 +170,25 @@
     2    3
     Output: 3
 
+## 14. Count Leaves in a Binary Tree:
+    Given a Binary Tree of size N , You have to count leaves in it. For example, there are two leaves in following tree
+            1
+        /      \
+       10      39
+    /
+    5
+    Example 1: 
+    Input: Given Tree is 
+               4
+             /   \
+            8     10
+           /     /   \
+          7     5     1
+         /
+        3 
+    Output: 3
+    Explanation: Three leaves are 3 , 5 and 1.
+
 ## 15. Check for Balanced Tree:
     Given a binary tree, find if it is height balanced or not. 
     A tree is height balanced if difference between heights of left and right subtrees is not more than one for all nodes of tree. 
