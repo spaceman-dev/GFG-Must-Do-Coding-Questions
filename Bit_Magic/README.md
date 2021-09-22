@@ -100,3 +100,11 @@
     Output: 3
     Explaination: Only the number 3 is single.
 
+## 14. Maximum Subset XOR (DP method):
+    Given an array arr[] of N positive integers. Find an integer denoting the maximum XOR subset value in the given array arr[].
+    Example 1:
+    Input : 
+    N = 3
+    arr[] = {2, 4, 5}
+    Output : 7
+    Explanation : The subset {2, 5} has maximum subset XOR value.
