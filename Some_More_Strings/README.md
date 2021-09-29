@@ -89,3 +89,11 @@
     Input: S = "geeksforgeeks"
     Output: g
     Explanation: g, e, k and s are the repeating characters. Out of these, g occurs first. 
+
+## 11. Remove common characters and concatenate:
+    Given two strings s1 and s2. Modify both the strings such that all the common characters of s1 and s2 are to be removed and the uncommon characters of s1 and s2 are to be concatenated.
+    Note: If all characters are removed print -1.
+    Example 1:
+    Input: s1 = aacdb, s2 = gafd
+    Output: cbgf
+    Explanation: The common characters of s1 and s2 are: a, d. The uncommon characters of s1 and s2 are c, b, g and f. Thus the modified string with uncommon characters concatenated is cbgf.
