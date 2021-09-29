@@ -27,7 +27,6 @@ class Solution
         return maxWord;
     }
 };
-
 // { Driver Code Starts.
 int main() {
     int t;
