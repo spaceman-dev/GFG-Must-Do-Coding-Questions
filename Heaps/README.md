@@ -14,3 +14,10 @@
         15 goes to stream --> median 10 (5,15) 
         1 goes to stream --> median 5 (5,15,1) 
         3 goes to stream --> median 4 (5,15,1 3) 
+
+## 2. Heap Sort:
+    Given an array of size N. The task is to sort the array elements by completing functions heapify() and buildHeap() which are used to implement Heap Sort.
+    Example 1:
+    Input: N = 5, arr[] = {4,1,3,9,7}
+    Output: 1 3 4 7 9
+    Explanation: After sorting elements using heap sort, elements will be in order as 1,3,4,7,9.
