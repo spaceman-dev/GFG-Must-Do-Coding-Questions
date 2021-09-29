@@ -109,3 +109,11 @@
         2. RBGB and its 12 permutation 
         3. RBGG and its 12 permutation 
     Hence answer is 36.
+
+## 13. Second most repeated string in a sequence:
+    Given a sequence of strings, the task is to find out the second most repeated (or frequent) string in the given sequence.
+    Note: No two strings are the second most repeated, there will be always a single string.
+    Example 1:
+    Input: N = 6 arr[] = {aaa, bbb, ccc, bbb, aaa, aaa}
+    Output: bbb
+    Explanation: "bbb" is the second most occurring string with frequency 2.
