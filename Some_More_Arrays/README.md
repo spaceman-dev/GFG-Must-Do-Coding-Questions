@@ -13,3 +13,10 @@
     Input: N = 2, A[] = {1, 10}
     Output: 1
     Explanation: A[0] < A[1] so (j-i) is 1-0 = 1.
+
+## 3. Consecutive 1s not allowed:
+    Given a positive integer N, count all possible distinct binary strings of length N such that there are no consecutive 1’s. Output your answer modulo 10^9 + 7.
+    Example 1:
+    Input: N = 3
+    Output: 5
+    Explanation: 5 strings are (000, 001, 010, 100, 101).
