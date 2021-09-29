@@ -27,3 +27,10 @@
     Input: N = 3 , A[] = {1,2,3} 
     Output: -1
     Explanation: Since, each element in {1,2,3} appears only once so there is no majority element.
+
+## 5. Two numbers with sum closest to zero:
+    Given an integer array of N elements. You need to find the maximum sum of two elements such that sum is closest to zero.
+    Example 1:
+    Input: N = 3, arr[] = {-8 -66 -60}
+    Output: -68
+    Explanation: Sum of two elements closest to zero is -68 using numbers -60 and -8.
