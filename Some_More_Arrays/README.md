@@ -6,3 +6,10 @@
     Input: N = 2, Arr[] = {2, 2}
     Output: 2 1
     Explanation: Repeating number is 2 and smallest positive missing number is 1.
+
+## 2. Maximum Index:
+    Given an array A[] of N positive integers. The task is to find the maximum of j - i subjected to the constraint of A[i] < A[j] and i < j.
+    Example 1:
+    Input: N = 2, A[] = {1, 10}
+    Output: 1
+    Explanation: A[0] < A[1] so (j-i) is 1-0 = 1.
