@@ -57,4 +57,10 @@
         1 1
         1 0 
     Explanation: Only cell that has 1 is at (0,0) so all cells in row 0 are modified to 1 and all cells in column 0 are modified to 1.
-    
+
+## 8. Smallest Positive Missing Number:
+    You are given an array arr[] of N integers including 0. The task is to find the smallest positive number missing from the array.
+    Example 1:
+    Input: N = 5, arr[] = {1,2,3,4,5}
+    Output: 6
+    Explanation: Smallest positive missing number is 6.
