@@ -97,3 +97,15 @@
     Input: s1 = aacdb, s2 = gafd
     Output: cbgf
     Explanation: The common characters of s1 and s2 are: a, d. The uncommon characters of s1 and s2 are c, b, g and f. Thus the modified string with uncommon characters concatenated is cbgf.
+
+## 12. Colorful Strings:    
+    Find the count of all possible strings of size n.Each character of the string is either ‘R’, ‘B’ or ‘G’. In the final string there needs to be at least r number of ‘R’, at least b number of ‘B’ and at least g number of ‘G’ (such that r + g + b <= n). 
+    Example 1:
+    Input: n = 4, r = 1, g = 1, b = 1
+    Output: 36 
+    Explanation: No. of 'R' >= 1, 
+        No. of ‘G’ >= 1, No. of ‘B’ >= 1  and (No. of ‘R’) + (No. of ‘B’) + (No. of ‘G’) = n then following cases are possible: 
+        1. RBGR and its 12 permutation 
+        2. RBGB and its 12 permutation 
+        3. RBGG and its 12 permutation 
+    Hence answer is 36.
