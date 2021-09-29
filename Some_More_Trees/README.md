@@ -51,3 +51,13 @@
       3     2
     Output: 3 1 2
     Explanation: First case represents a tree with 3 nodes and 2 edges where root is 1, left child of 1 is 3 and right child of 1 is 2.
+
+## 4. Lowest Common Ancestor in a Binary Tree:
+    Given a Binary Tree with all unique values and two nodes value n1 and n2. The task is to find the lowest common ancestor of the given two nodes. We may assume that either both n1 and n2 are present in the tree or none of them is present. 
+    Example 1:
+    Input: n1 = 2 , n2 =  3
+       1
+     /  \
+    2    3
+    Output: 1
+    Explanation: LCA of 2 and 3 is 1.
