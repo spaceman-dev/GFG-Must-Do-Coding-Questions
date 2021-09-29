@@ -72,3 +72,13 @@
     Input: geeksforgeeks, forgeeksgeeks
     Output: 1
     Explanation: s1 is geeksforgeeks, s2 is forgeeksgeeks. Clearly, s2 is a rotated version of s1 as s2 can be obtained by left-rotating s1 by 5 units.
+
+## 9. Save Ironman:
+    Jarvis is weak in computing palindromes for Alphanumeric characters.
+    While Ironman is busy fighting Thanos, he needs to activate sonic punch but Jarvis is stuck in computing palindromes.
+    You are given a string S containing alphanumeric characters. Find out whether the string is a palindrome or not.
+    If you are unable to solve it then it may result in the death of Iron Man.
+    Example 1:
+    Input : S = "I am :IronnorI Ma, i"
+    Output : YES
+    Explanation: Ignore all the symbol and whitespaces S = "IamIronnorIMai". Now, Check for pallandrome ignoring uppercase and lowercase english letter.
