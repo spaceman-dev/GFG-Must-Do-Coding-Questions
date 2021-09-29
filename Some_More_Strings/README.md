@@ -82,3 +82,10 @@
     Input : S = "I am :IronnorI Ma, i"
     Output : YES
     Explanation: Ignore all the symbol and whitespaces S = "IamIronnorIMai". Now, Check for pallandrome ignoring uppercase and lowercase english letter.
+
+## 10. Repeated Character:
+    Given a string consisting of lowercase english alphabets. Find the repeated character present first in the string.
+    Example 1:
+    Input: S = "geeksforgeeks"
+    Output: g
+    Explanation: g, e, k and s are the repeating characters. Out of these, g occurs first. 
