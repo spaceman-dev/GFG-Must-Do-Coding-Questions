@@ -156,3 +156,18 @@
         a) For 1st throw get a 2. 
         b) For 2nd throw get a 6.
         c) For 3rd throw get a 2.
+
+## 17. Cheapest Flights Within K Stops:
+    There are n cities connected by m flights. Each flight starts from city u and arrives at v with a price w. You are given three integers src, dst, and k, return the cheapest price from src to dst with at most k stops. If there is no such route, return -1. If you can reach dst without using at most k stops, return the price of the cheapest route.
+    Example 1:
+    Input: n = 4, flights = [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], src = 0, dst = 3, k = 1
+    Output: 700
+    Explanation: The graph is shown above.
+
+## 18. Find all Critical Connections in Graph:
+    There are n servers numbered from 0 to n-1 connected by undirected server-to-server connections forming a network where connections[i] = [ai, bi] represents a connection between servers ai and bi. Any server can reach other servers directly or indirectly through the network.
+    A critical connection is a connection that, if removed, will make some server unable to reach some other server.
+    Return all critical connections in the network in any order.
+    Example 1:
+    Input: n = 4, connections = [[0,1],[1,2],[2,0],[1,3]]
+    Output: [[1,3]]
